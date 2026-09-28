@@ -10,14 +10,17 @@ I build production-ready Generative AI applications focused on AI agents, RAG, i
 
 ## 🛠️ Tech Stack
 
+**Languages**
+Python • SQL
+
 **AI / GenAI**
-Python • LangChain • LangGraph • RAG • Sentence Transformers • ChromaDB • MCP • Gemini • Groq • Ollama • Qwen • Sarvam AI
+LangChain • LangGraph • RAG • Sentence Transformers • ChromaDB • Pinecone • MCP • AWS Bedrock • Gemini • Groq • Ollama • Qwen • Sarvam AI
 
 **Backend**
 FastAPI • Celery • Redis • REST APIs • Webhooks
 
 **Databases**
-PostgreSQL • SQLite • Firestore • DynamoDB • ChromaDB
+PostgreSQL • SQLite • Firestore • DynamoDB • ChromaDB • Pinecone
 
 **Cloud & DevOps**
 AWS EC2 • AWS Amplify • Docker • Docker Compose • Nginx • PM2 • Git • GitHub
