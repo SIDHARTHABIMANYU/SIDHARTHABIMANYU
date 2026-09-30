@@ -27,7 +27,7 @@ AWS EC2 • AWS Amplify • Docker • Docker Compose • Nginx • PM2 • Git 
 
 ## 🔥 Featured Projects
 
-**🤖 Inceptarc AI Recruitment System**
+**🤖 Talentflow-AI Recruitment System**
 AI-powered recruitment automation with resume parsing, semantic candidate-job matching, OCR, human-in-the-loop approval, and automated email workflows.
 FastAPI • LangGraph • Gemini • PostgreSQL • ChromaDB • Celery • Redis • Docker • AWS
 
