@@ -15,8 +15,8 @@
 
 ## ⚡ At a Glance
 
-- 🏢 AI Engineer Intern at **Spinacle Technologies**, shipping AI systems to live production
-- 🔌 Deployed **MCP servers** (SSE + Streamable HTTP) and a **self-hosted LLM (Qwen 2.5 via Ollama)** on AWS EC2
+- 🏢 AI Engineer Intern at **Spinacle Technologies**, taking AI systems from architecture to live production
+- 🔌 Deployed **MCP servers** (SSE + Streamable HTTP) and a **self-hosted SLM (Qwen 2.5 via Ollama)** on AWS EC2
 - 🧠 Integrated **3 LLM providers** (Groq, Gemini, Sarvam AI) into production pipelines
 - 🚀 Cut resume screening from **hours to under 30 seconds** per candidate
 - 🔍 Flagged **44 anomalies across 870 retail records** with ML-based detection
@@ -56,6 +56,16 @@
 
 ---
 
+## 💼 Experience
+
+**AI Engineer Intern, Spinacle Technologies** | Apr 2026 – Oct 2026
+- Built **LangGraph/LangChain agent workflows** for conversational products and automated document processing
+- Built **RAG pipelines** (ChromaDB + Sentence Transformers) so agents recall guest history and personalize replies
+- Deployed **dual MCP transports (SSE + Streamable HTTP)** and a local **Qwen 2.5:3b SLM via Ollama on AWS EC2**, cutting dependency on external LLM APIs
+- Shipped to production with **Docker, AWS EC2 and Nginx**: webhook bots, voice AI pipelines and hybrid OCR
+
+---
+
 ## 🔥 Featured Projects
 
 ### 🛡️ [AI Data Reliability Copilot](https://github.com/SIDHARTHABIMANYU/AI-Data-Reliability-Copilot)
@@ -81,24 +91,31 @@ AI-powered recruitment automation with resume parsing, semantic candidate-job ma
 ---
 
 ### 🎵 Musicfy AI Platform
-AI music platform with local LLM inference, MCP integration, and agent-to-agent concert booking workflows.
+AI music platform where a small language model runs on my own server and AI clients like Claude can connect through MCP.
+- 🧠 Hosts **Qwen 2.5 (3B) SLM locally via Ollama on AWS EC2**, behind a **PM2-managed Node.js proxy**, reducing dependence on external LLM APIs
+- 🔌 **MCP server (SSE + Streamable HTTP)** so external AI clients such as Claude can access and control the platform in real time
+- 🤝 **Agent-to-agent concert booking workflows**
+- 🗄️ **DynamoDB** backend
 
-`Node.js` `Ollama` `Qwen` `MCP` `DynamoDB` `AWS EC2`
+`Node.js` `Ollama` `Qwen (SLM)` `MCP` `DynamoDB` `AWS EC2` `PM2`
 
 ---
 
 ### 🏨 Myve Hotel AI Assistant
-Conversational hotel assistant using LangGraph and RAG for guest requests, multilingual voice processing, and real-time staff task management.
-- 💬 Self-serve chat across **WhatsApp and Telegram** with voice transcription/translation
-- 📲 Dynamic **QR codes** launching a pre-filled chat with branch and room data
-- 📋 Firebase-backed **live staff dashboard**
+Conversational hotel assistant that replaces manual front-desk requests with self-serve chat and gives staff live visibility into guest tasks.
+- 💬 **LangGraph intent-classification agent** across **WhatsApp and Telegram**, with **ChromaDB RAG memory** and **Sarvam AI** voice transcription/translation
+- 📋 **Firebase-backed staff dashboard** for real-time task management
+- 📲 **Dynamic QR codes** that launch a pre-filled chat with branch and room data, so guest onboarding takes a single scan
 
-`FastAPI` `LangGraph` `LangChain` `ChromaDB` `Sarvam AI` `Firebase` `Telegram`
+`FastAPI` `LangGraph` `LangChain (Groq)` `Sarvam AI` `ChromaDB` `SQLite` `Firebase Firestore` `Telegram Bot API`
 
 ---
 
 ### 🩺 AI Doctor Appointment Booking Agent
-Conversational Telegram agent handling doctor discovery, appointment booking, cancellations, and rescheduling in natural language.
+Conversational Telegram agent that handles the full appointment lifecycle.
+- 📅 Removes manual scheduling by handling booking end to end via **webhooks**
+- 🔎 Real-time doctor discovery and slot management by querying **PostgreSQL** during the conversation
+- 💬 Cancellations and rescheduling in **natural language**, with no phone coordination
 
 `Python` `FastAPI` `PostgreSQL` `Telegram Bot API` `Webhooks`
 
@@ -107,15 +124,6 @@ Conversational Telegram agent handling doctor discovery, appointment booking, ca
 ## 📚 Currently Focused On
 
 Production AI Engineering • AI Agents • RAG Systems • MCP • Backend & System Design • Cloud Deployment
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SIDHARTHABIMANYU&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SIDHARTHABIMANYU&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
 
 ---
 
