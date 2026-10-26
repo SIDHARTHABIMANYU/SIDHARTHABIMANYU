@@ -69,7 +69,7 @@
 
 ## 🔥 Featured Projects
 
-### 🤖 TalentFlow AI Recruitment System
+### 🤖 [TalentFlow AI Recruitment System](https://github.com/SIDHARTHABIMANYU/TalentFlow-AI)
 AI-powered recruitment automation with resume parsing, semantic candidate-job matching, OCR, human-in-the-loop approval, and automated email workflows.
 - ⚡ Cut resume screening from **hours to under 30 seconds** per candidate
 - 🐳 **6-container Docker pipeline** with Celery Beat polling and hybrid OCR (Tesseract + PyPDF2/pdfplumber)
@@ -80,7 +80,7 @@ AI-powered recruitment automation with resume parsing, semantic candidate-job ma
 
 ---
 
-### 🛡️ AI Data Reliability Copilot
+### 🛡️ [AI Data Reliability Copilot](https://github.com/SIDHARTHABIMANYU/AI-Data-Reliability-Copilot)
 AI copilot that detects data anomalies, investigates pipeline incidents, and recommends fixes, with engineers approving every action.
 - 🔍 Flagged **44 anomalies (5.06%) across 870 retail records** (revenue, stock availability, supplier performance) using Isolation Forest + Z-score detection
 - 🧭 **LangGraph investigation workflow** combining incident evidence, Pinecone retrieval, and LLMs to produce findings, root causes, and remediation steps
@@ -91,7 +91,7 @@ AI copilot that detects data anomalies, investigates pipeline incidents, and rec
 
 ---
 
-### 🏨 Myve Hotel AI Assistant
+### 🏨 [Myve Hotel AI Assistant](https://github.com/SIDHARTHABIMANYU/Hotel-AI)
 Conversational hotel assistant that replaces manual front-desk requests with self-serve chat and gives staff live visibility into guest tasks.
 - 💬 **LangGraph intent-classification agent** across **WhatsApp and Telegram**, with **ChromaDB RAG memory** and **Sarvam AI** voice transcription/translation
 - 📋 **Firebase-backed staff dashboard** for real-time task management
@@ -101,7 +101,7 @@ Conversational hotel assistant that replaces manual front-desk requests with sel
 
 ---
 
-### 🎵 Musicfy AI Platform
+### 🎵 [Musicfy AI Platform](https://github.com/SIDHARTHABIMANYU/musicfy-ai-backend)
 AI music platform where a small language model runs on my own server and AI clients like Claude can connect through MCP.
 - 🧠 Runs **Qwen 2.5 (3B) SLM locally via Ollama on AWS EC2**, reducing dependence on external LLM APIs
 - 🔌 **MCP integration** so external AI clients such as Claude can access and control the platform
@@ -113,7 +113,7 @@ AI music platform where a small language model runs on my own server and AI clie
 
 ---
 
-### 🩺 AI Doctor Appointment Booking Agent
+### 🩺 [AI Doctor Appointment Booking Agent](https://github.com/SIDHARTHABIMANYU/AI-Doctor-Appointment-Booking-)
 Conversational Telegram agent that handles the full appointment lifecycle.
 - 📅 Removes manual scheduling by handling booking end to end via **webhooks**
 - 🔎 Real-time doctor discovery and slot management by querying **PostgreSQL** during the conversation
