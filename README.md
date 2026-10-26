@@ -59,27 +59,17 @@
 ## 💼 Experience
 
 **AI Engineer Intern, Spinacle Technologies** | Apr 2026 – Oct 2026
-- Built **LangGraph/LangChain agent workflows** for conversational products and automated document processing
-- Built **RAG pipelines** (ChromaDB + Sentence Transformers) so agents recall guest history and personalize replies
-- Deployed **dual MCP transports (SSE + Streamable HTTP)** and a local **Qwen 2.5:3b SLM via Ollama on AWS EC2**, cutting dependency on external LLM APIs
-- Shipped to production with **Docker, AWS EC2 and Nginx**: webhook bots, voice AI pipelines and hybrid OCR
+- Architected **AI Agent workflows using LangGraph and LangChain**, applying stateful multi-turn orchestration for conversational products and sequential pipelines for automated document processing
+- Built **RAG pipelines with ChromaDB and Sentence Transformers**, structuring vector-based conversation memory so agents could recall guest history and personalize responses without maintaining external state
+- Deployed **dual MCP server transports (SSE + Streamable HTTP)** for real-time bidirectional AI control of production web apps, and hosted **Qwen 2.5:3b locally via Ollama on AWS EC2** behind a PM2-managed Node.js proxy, cutting dependency on external LLM APIs
+- Took AI systems from architecture through live production deployment using **Docker, AWS EC2, and Nginx**, hardening webhook-based bots, voice AI pipelines, and hybrid OCR under real usage
+- Integrated **3 LLM providers (Groq, Gemini 2.0 Flash, Sarvam AI)** into production pipelines for intent classification, resume parsing, and multilingual voice processing
 
 ---
 
 ## 🔥 Featured Projects
 
-### 🛡️ [AI Data Reliability Copilot](https://github.com/SIDHARTHABIMANYU/AI-Data-Reliability-Copilot)
-AI copilot that detects data anomalies, investigates pipeline incidents, and recommends fixes, with engineers approving every action.
-- 🔍 Flagged **44 anomalies (5.06%) across 870 retail records** (revenue, stock availability, supplier performance) using Isolation Forest + Z-score detection
-- 🧭 **LangGraph investigation workflow** combining incident evidence, Pinecone retrieval, and LLMs to produce findings, root causes, and remediation steps
-- ✅ **Human-in-the-loop approve/reject flow** with PostgreSQL audit records
-- 🔌 **MCP server** exposing read-only pipeline-monitoring and data-quality tools to AI clients
-
-`Python` `FastAPI` `LangGraph` `LangChain` `Pinecone` `Hugging Face` `Gemini` `AWS Bedrock` `AWS S3` `scikit-learn` `pandas` `PostgreSQL` `MCP`
-
----
-
-### 🤖 [TalentFlow AI Recruitment System](https://github.com/SIDHARTHABIMANYU/TalentFlow-AI)
+### 🤖 TalentFlow AI Recruitment System
 AI-powered recruitment automation with resume parsing, semantic candidate-job matching, OCR, human-in-the-loop approval, and automated email workflows.
 - ⚡ Cut resume screening from **hours to under 30 seconds** per candidate
 - 🐳 **6-container Docker pipeline** with Celery Beat polling and hybrid OCR (Tesseract + PyPDF2/pdfplumber)
@@ -90,14 +80,14 @@ AI-powered recruitment automation with resume parsing, semantic candidate-job ma
 
 ---
 
-### 🎵 Musicfy AI Platform
-AI music platform where a small language model runs on my own server and AI clients like Claude can connect through MCP.
-- 🧠 Hosts **Qwen 2.5 (3B) SLM locally via Ollama on AWS EC2**, behind a **PM2-managed Node.js proxy**, reducing dependence on external LLM APIs
-- 🔌 **MCP server (SSE + Streamable HTTP)** so external AI clients such as Claude can access and control the platform in real time
-- 🤝 **Agent-to-agent concert booking workflows**
-- 🗄️ **DynamoDB** backend
+### 🛡️ AI Data Reliability Copilot
+AI copilot that detects data anomalies, investigates pipeline incidents, and recommends fixes, with engineers approving every action.
+- 🔍 Flagged **44 anomalies (5.06%) across 870 retail records** (revenue, stock availability, supplier performance) using Isolation Forest + Z-score detection
+- 🧭 **LangGraph investigation workflow** combining incident evidence, Pinecone retrieval, and LLMs to produce findings, root causes, and remediation steps
+- ✅ **Human-in-the-loop approve/reject flow** with PostgreSQL audit records
+- 🔌 **MCP server** exposing read-only pipeline-monitoring and data-quality tools to AI clients
 
-`Node.js` `Ollama` `Qwen (SLM)` `MCP` `DynamoDB` `AWS EC2` `PM2`
+`Python` `FastAPI` `LangGraph` `LangChain` `Pinecone` `Hugging Face` `Gemini` `AWS Bedrock` `AWS S3` `scikit-learn` `pandas` `PostgreSQL` `MCP`
 
 ---
 
@@ -108,6 +98,18 @@ Conversational hotel assistant that replaces manual front-desk requests with sel
 - 📲 **Dynamic QR codes** that launch a pre-filled chat with branch and room data, so guest onboarding takes a single scan
 
 `FastAPI` `LangGraph` `LangChain (Groq)` `Sarvam AI` `ChromaDB` `SQLite` `Firebase Firestore` `Telegram Bot API`
+
+---
+
+### 🎵 Musicfy AI Platform
+AI music platform where a small language model runs on my own server and AI clients like Claude can connect through MCP.
+- 🧠 Runs **Qwen 2.5 (3B) SLM locally via Ollama on AWS EC2**, reducing dependence on external LLM APIs
+- 🔌 **MCP integration** so external AI clients such as Claude can access and control the platform
+- 🤝 **Agent-to-agent concert booking workflows**
+- 🗄️ **DynamoDB** backend
+- ☁️ Cloud deployment with **AWS EC2 and AWS Amplify**
+
+`Ollama` `Qwen (SLM)` `MCP` `DynamoDB` `AWS EC2` `AWS Amplify`
 
 ---
 
